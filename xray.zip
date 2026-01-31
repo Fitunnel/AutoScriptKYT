@@ -261,8 +261,8 @@ chmod +x cf.sh
 ./cf.sh > /dev/null 2>&1
 rm -f /root/cf.sh /root/cf-02.sh eror.zip
 else
-SUB="ganti"
-DOMAIN="domainlu.com"
+SUB="hc1."
+DOMAIN="alfinet.my.id"
 echo "$SUB.$DOMAIN" > /etc/xray/domain
 echo "$SUB.$DOMAIN" > /root/domain
 echo "IP=$SUB.$DOMAIN" > /var/lib/kyt/ipvps.conf
